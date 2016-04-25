@@ -1,17 +1,18 @@
-# Example of semidefinite programming relaxation: Community Detection
+# sdp-ex
 
 ## Introduction
 
-This repository contains (rough) Python code to detect communities in network data via semidefinite programming relaxations.
+This repository contains (rough) Python code to [detect communities](https://en.wikipedia.org/wiki/Community_structure) in network data via semidefinite programming relaxations.
 
 * `commdet.py`: contains code to detect communities and plot the network given an adjacency matrix as input
 * `toytest.py`: a test for a toy network, the Stochastic Block Model with two (equally sized) communities
 * `twittest.py`: a test for communities within a Twitter (ego) network
 
-![Twitter ego 16834201](twitego_16834201.png)
+## Examples
 
 ![Toy 2-community SBM](toytest_2SBM.png)
 
+![Twitter ego 16834201](twitego_16834201.png)
 
 ## Requirements
 
